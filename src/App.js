@@ -10,7 +10,8 @@ function App() {
           <Dictionary />
         </main>
         <small className="App-footer">
-          Coded by Anna Wierzbicka, and open-sourced in <a>GitHub</a>.
+          Coded by Anna Wierzbicka, and open-sourced in{" "}
+          <a href="https://github.com/AnnaOW/dictionary-app-react">GitHub</a>.
         </small>
       </div>
     </div>
