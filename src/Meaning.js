@@ -10,7 +10,7 @@ export default function Meaning(props) {
       </p>
       <p>
         <em>
-          <strong>Example:</strong> <strong>Example:</strong>{" "}
+          <strong>Example:</strong> {props.meaning.example}{" "}
         </em>
       </p>
       <div>
