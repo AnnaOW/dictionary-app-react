@@ -4,9 +4,7 @@ import Synonyms from "./Synonyms";
 export default function Meaning(props) {
   return (
     <div className="Meaning">
-      <h4>
-        <strong>{props.meaning.partOfSpeech}</strong>
-      </h4>
+      <h4>{props.meaning.partOfSpeech}</h4>
       <p>
         <strong>Definition:</strong> {props.meaning.definition}
       </p>
@@ -15,7 +13,9 @@ export default function Meaning(props) {
           <strong>Example:</strong> {props.meaning.example}
         </em>
       </p>
-      <Synonyms synonyms={props.meaning.synonyms} />
+      <div>
+        <Synonyms synonyms={props.meaning.synonyms} />{" "}
+      </div>
     </div>
   );
 }
