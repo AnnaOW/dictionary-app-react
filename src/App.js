@@ -7,10 +7,10 @@ function App() {
       <div className="App">
         <header className="App-header">DICTIONARY</header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="orange" />
         </main>
         <footer className="App-footer">
-          Coded by Anna Wierzbicka, and open-sourced in{" "}
+          Coded by Anna Oliwia Wierzbicka, and open-sourced in{" "}
           <a href="https://github.com/AnnaOW/dictionary-app-react">GitHub</a>.
         </footer>
       </div>
