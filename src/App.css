@@ -1,3 +1,14 @@
+body {
+  background-color: #e9967a;
+}
+
+a,
+.Coder {
+  color: #212529;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .App-header {
   font-weight: 700;
   font-size: 46px;
