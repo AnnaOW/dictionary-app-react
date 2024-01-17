@@ -20,7 +20,7 @@
   width: 100%;
 }
 
-.Dictionary Hint {
-  font-size: 11px;
-  margin-top: 5px;
+.Dictionary .Hint {
+  font-size: 12px;
+  margin-top: 10px;
 }
