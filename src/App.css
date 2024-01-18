@@ -11,11 +11,15 @@ body {
   margin: 0 auto;
 }
 
-a,
-.Coder {
+a {
   color: #212529;
   font-weight: bold;
   text-decoration: underline;
+}
+
+.App .Coder {
+  color: #212529;
+  font-weight: bold;
 }
 
 .App-header {
