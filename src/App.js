@@ -11,7 +11,7 @@ function App() {
         </main>
         <footer className="App-footer">
           Coded by <span className="Coder">Anna Oliwia Wierzbicka</span>, and
-          open-sourced in{" "}
+          open-sourced on{" "}
           <a href="https://github.com/AnnaOW/dictionary-app-react">GitHub</a>.
         </footer>
       </div>
