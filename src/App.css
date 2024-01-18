@@ -6,6 +6,11 @@ body {
   );
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 a,
 .Coder {
   color: #212529;
